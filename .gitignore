@@ -1,0 +1,15 @@
+# Ignore compiled files and folders
+__pycache__/
+dist/
+build/
+*.spec
+*.exe
+
+# Ignore sensitive data
+.env
+hotel.db
+hotel.db-journal
+
+# Ignore tools
+ngrok.exe
+Start_App.bat
